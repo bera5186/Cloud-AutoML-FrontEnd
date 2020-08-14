@@ -1,0 +1,10 @@
+.pricing-header {
+    font-family: 'Monda', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+}
