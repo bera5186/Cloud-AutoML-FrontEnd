@@ -40,7 +40,7 @@ export const DashBoardContent = () => {
             xaxis
         });
         setSeries([yaxis]);
-    }
+    };
 
     return (
         <>
@@ -49,7 +49,7 @@ export const DashBoardContent = () => {
             </div>
 
 
-        <Chart options={options} series={series} type="histogram" width={500} height={320} />
+        <Chart options={options} series={series} type="area" width={500} height={320} />
 
         {
             console.log(labels)
