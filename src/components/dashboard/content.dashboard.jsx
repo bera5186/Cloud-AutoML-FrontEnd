@@ -13,7 +13,7 @@ export const DashBoardContent = () => {
         }
     });
     const [series, setSeries] = useState([]);
-    const [type, setType] = useState("bar");
+    // const [type, setType] = useState("bar");
 
     const handleData = (data) => {
 
@@ -51,7 +51,9 @@ export const DashBoardContent = () => {
 
         <Chart options={options} series={series} type="histogram" width={500} height={320} />
 
-
+        {
+            console.log(labels)
+        }
         </>
     );
 };
