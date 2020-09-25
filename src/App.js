@@ -1,7 +1,7 @@
 import React from "react";
 
 // pages
-import { Dashboard } from "./pages/dashboard";
+import { Dashboard } from "./pages/dashboard.page";
 
 
 

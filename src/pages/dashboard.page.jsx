@@ -1,7 +1,7 @@
 import React from "react";
 
 // components
-import { DashBoardSideBar } from "../components/dashboard/sidebar.dashboard";
+import { DashBoardSideBar } from "../components/dashboard/sidebar.dashboard.component";
 
 
 

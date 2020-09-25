@@ -1,7 +1,7 @@
 import React from "react";
 
 // components
-import { DashBoardContent } from "./content.dashboard";
+import { DashBoardContent } from "./content.dashboard.component";
 
 export const DashBoardSideBar = () => {
     return (
