@@ -1,0 +1,4 @@
+.hover-grad:hover {
+    background: linear-gradient(to bottom right, #09C6F9, #045DE9);
+    transition: background 8s ease-in;
+}
